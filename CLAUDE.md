@@ -21,8 +21,9 @@ Once you have all answers:
 - Rewrite `CLAUDE.md` with the real project info (stack, key commands, conventions)
 - Update `.claude/settings.json` permissions for the chosen stack
 - Run any scaffold commands (e.g. `npm init`, `npx create-next-app`, etc.)
+- If git was requested: use the GitHub MCP to create the repo on GitHub, then push
 - Create a `.initialized` file with today's date so this wizard never runs again
-- Tell the user: "Project is ready. What do you want to start with?"
+- Tell the user the GitHub repo URL and: "Project is ready. What do you want to start with?"
 
 ### If `.initialized` EXISTS (project already set up):
 
